@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/swiperefresh"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    >
+    <!--    如果布局包含 ID 为 "@android:id/list" 的 ListView，系统会自动支持滑动刷新功能。-->
+    <!--    但是，以这种方式明确声明 ListView 会取代默认的 ListFragment 视图结构。-->
+
+    <com.example.swiperrefreshdemo.FlexibleListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+
+
+    
+    
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
